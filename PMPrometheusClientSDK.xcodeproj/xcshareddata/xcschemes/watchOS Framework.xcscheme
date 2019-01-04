@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E2AF2D2C21DEB1C80030498D"
                BuildableName = "PMPrometheusClientSDK.framework"
                BlueprintName = "watchOS Framework"
-               ReferencedContainer = "container:PMPrometheosClientSDK.xcodeproj">
+               ReferencedContainer = "container:PMPrometheusClientSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,8 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      codeCoverageEnabled = "YES"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES">
       <Testables>
       </Testables>
       <AdditionalOptions>
@@ -49,7 +49,7 @@
             BlueprintIdentifier = "E2AF2D2C21DEB1C80030498D"
             BuildableName = "PMPrometheusClientSDK.framework"
             BlueprintName = "watchOS Framework"
-            ReferencedContainer = "container:PMPrometheosClientSDK.xcodeproj">
+            ReferencedContainer = "container:PMPrometheusClientSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -67,7 +67,7 @@
             BlueprintIdentifier = "E2AF2D2C21DEB1C80030498D"
             BuildableName = "PMPrometheusClientSDK.framework"
             BlueprintName = "watchOS Framework"
-            ReferencedContainer = "container:PMPrometheosClientSDK.xcodeproj">
+            ReferencedContainer = "container:PMPrometheusClientSDK.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
