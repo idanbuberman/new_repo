@@ -7,12 +7,11 @@
 //
 
 import Foundation
+
 public
-class Dealer: NSObject {
+class Dealer {
     
-    public override init() {
-        super.init()
-        
-        print("Hello world! Waddup")
+    public class func logToConsole(msg: String) {
+        print(msg);
     }
 }

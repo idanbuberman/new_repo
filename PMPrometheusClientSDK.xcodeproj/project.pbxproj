@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2AF2D1A21DEB1A80030498D /* PMPrometheusClientSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AF2D1121DEB1A80030498D /* PMPrometheusClientSDK.framework */; };
-		E2AF2D4321DEB1D80030498D /* PMPrometheusClientSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AF2D3A21DEB1D80030498D /* PMPrometheusClientSDK.framework */; };
-		E2AF2D5F21DEB1E90030498D /* PMPrometheusClientSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AF2D5621DEB1E90030498D /* PMPrometheusClientSDK.framework */; };
+		E2AF2D1A21DEB1A80030498D /* iOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AF2D1121DEB1A80030498D /* iOS_Framework.framework */; };
+		E2AF2D4321DEB1D80030498D /* tvOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AF2D3A21DEB1D80030498D /* tvOS_Framework.framework */; };
+		E2AF2D5F21DEB1E90030498D /* macOS_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2AF2D5621DEB1E90030498D /* macOS_Framework.framework */; };
 		E2AF2D9621DEB49E0030498D /* macOS Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AF2D7D21DEB4590030498D /* macOS Framework.h */; };
 		E2AF2D9721DEB4A20030498D /* iOS Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AF2D7C21DEB4590030498D /* iOS Framework.h */; };
 		E2AF2D9821DEB4A50030498D /* watchOS Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = E2AF2D7F21DEB4590030498D /* watchOS Framework.h */; };
@@ -45,12 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E2AF2D1121DEB1A80030498D /* PMPrometheusClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMPrometheusClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF2D1121DEB1A80030498D /* iOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AF2D1921DEB1A80030498D /* iOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2AF2D2D21DEB1C80030498D /* PMPrometheusClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMPrometheusClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2AF2D3A21DEB1D80030498D /* PMPrometheusClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMPrometheusClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF2D2D21DEB1C80030498D /* watchOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = watchOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF2D3A21DEB1D80030498D /* tvOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tvOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AF2D4221DEB1D80030498D /* tvOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2AF2D5621DEB1E90030498D /* PMPrometheusClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PMPrometheusClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2AF2D5621DEB1E90030498D /* macOS_Framework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_Framework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AF2D5E21DEB1E90030498D /* macOS FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macOS FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AF2D7021DEB44D0030498D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2AF2D7221DEB44D0030498D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2AF2D1A21DEB1A80030498D /* PMPrometheusClientSDK.framework in Frameworks */,
+				E2AF2D1A21DEB1A80030498D /* iOS_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2AF2D4321DEB1D80030498D /* PMPrometheusClientSDK.framework in Frameworks */,
+				E2AF2D4321DEB1D80030498D /* tvOS_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,13 +118,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2AF2D5F21DEB1E90030498D /* PMPrometheusClientSDK.framework in Frameworks */,
+				E2AF2D5F21DEB1E90030498D /* macOS_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221B0DBB6E27E9E6521D48ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2AF2CE821DEB14C0030498D = {
 			isa = PBXGroup;
 			children = (
@@ -132,18 +139,19 @@
 				E2AF2D7B21DEB4590030498D /* Sources */,
 				E2AF2D8421DEB4610030498D /* Tests */,
 				E2AF2CF321DEB14C0030498D /* Products */,
+				221B0DBB6E27E9E6521D48ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E2AF2CF321DEB14C0030498D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2AF2D1121DEB1A80030498D /* PMPrometheusClientSDK.framework */,
+				E2AF2D1121DEB1A80030498D /* iOS_Framework.framework */,
 				E2AF2D1921DEB1A80030498D /* iOS FrameworkTests.xctest */,
-				E2AF2D2D21DEB1C80030498D /* PMPrometheusClientSDK.framework */,
-				E2AF2D3A21DEB1D80030498D /* PMPrometheusClientSDK.framework */,
+				E2AF2D2D21DEB1C80030498D /* watchOS_Framework.framework */,
+				E2AF2D3A21DEB1D80030498D /* tvOS_Framework.framework */,
 				E2AF2D4221DEB1D80030498D /* tvOS FrameworkTests.xctest */,
-				E2AF2D5621DEB1E90030498D /* PMPrometheusClientSDK.framework */,
+				E2AF2D5621DEB1E90030498D /* macOS_Framework.framework */,
 				E2AF2D5E21DEB1E90030498D /* macOS FrameworkTests.xctest */,
 			);
 			name = Products;
@@ -310,13 +318,14 @@
 			);
 			name = "iOS Framework";
 			productName = "iOS Framework";
-			productReference = E2AF2D1121DEB1A80030498D /* PMPrometheusClientSDK.framework */;
+			productReference = E2AF2D1121DEB1A80030498D /* iOS_Framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2AF2D1821DEB1A80030498D /* iOS FrameworkTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF2D2521DEB1A80030498D /* Build configuration list for PBXNativeTarget "iOS FrameworkTests" */;
 			buildPhases = (
+				30A6F24744224AE61173D2D6 /* [CP] Check Pods Manifest.lock */,
 				E2AF2D1521DEB1A80030498D /* Sources */,
 				E2AF2D1621DEB1A80030498D /* Frameworks */,
 				E2AF2D1721DEB1A80030498D /* Resources */,
@@ -346,7 +355,7 @@
 			);
 			name = "watchOS Framework";
 			productName = "watchOS Framework";
-			productReference = E2AF2D2D21DEB1C80030498D /* PMPrometheusClientSDK.framework */;
+			productReference = E2AF2D2D21DEB1C80030498D /* watchOS_Framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2AF2D3921DEB1D80030498D /* tvOS Framework */ = {
@@ -364,13 +373,14 @@
 			);
 			name = "tvOS Framework";
 			productName = "tvOS Framework";
-			productReference = E2AF2D3A21DEB1D80030498D /* PMPrometheusClientSDK.framework */;
+			productReference = E2AF2D3A21DEB1D80030498D /* tvOS_Framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2AF2D4121DEB1D80030498D /* tvOS FrameworkTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF2D4E21DEB1D80030498D /* Build configuration list for PBXNativeTarget "tvOS FrameworkTests" */;
 			buildPhases = (
+				C47062003E5BAD183BCD6D96 /* [CP] Check Pods Manifest.lock */,
 				E2AF2D3E21DEB1D80030498D /* Sources */,
 				E2AF2D3F21DEB1D80030498D /* Frameworks */,
 				E2AF2D4021DEB1D80030498D /* Resources */,
@@ -400,13 +410,14 @@
 			);
 			name = "macOS Framework";
 			productName = "macOS Framework";
-			productReference = E2AF2D5621DEB1E90030498D /* PMPrometheusClientSDK.framework */;
+			productReference = E2AF2D5621DEB1E90030498D /* macOS_Framework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E2AF2D5D21DEB1E90030498D /* macOS FrameworkTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2AF2D6A21DEB1E90030498D /* Build configuration list for PBXNativeTarget "macOS FrameworkTests" */;
 			buildPhases = (
+				5C25A31D6319288471547679 /* [CP] Check Pods Manifest.lock */,
 				E2AF2D5A21DEB1E90030498D /* Sources */,
 				E2AF2D5B21DEB1E90030498D /* Frameworks */,
 				E2AF2D5C21DEB1E90030498D /* Resources */,
@@ -472,7 +483,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E2AF2CEC21DEB14C0030498D /* Build configuration list for PBXProject "PMPrometheosClientSDK" */;
+			buildConfigurationList = E2AF2CEC21DEB14C0030498D /* Build configuration list for PBXProject "PMPrometheusClientSDK" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -546,6 +557,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30A6F24744224AE61173D2D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS FrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C25A31D6319288471547679 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-macOS FrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47062003E5BAD183BCD6D96 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tvOS FrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2AF2D0C21DEB1A80030498D /* Sources */ = {
@@ -725,6 +793,7 @@
 		E2AF2D2321DEB1A80030498D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -738,7 +807,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.iOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = iOS_Framework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -750,6 +819,7 @@
 		E2AF2D2421DEB1A80030498D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -763,7 +833,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.iOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = iOS_Framework;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -808,6 +878,7 @@
 		E2AF2D3321DEB1C80030498D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -820,7 +891,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.watchOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = watchOS_Framework;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -833,6 +904,7 @@
 		E2AF2D3421DEB1C80030498D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -845,7 +917,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.watchOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = watchOS_Framework;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -858,6 +930,7 @@
 		E2AF2D4C21DEB1D80030498D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -869,7 +942,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.tvOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = tvOS_Framework;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -882,6 +955,7 @@
 		E2AF2D4D21DEB1D80030498D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -893,7 +967,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.tvOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = tvOS_Framework;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -937,6 +1011,7 @@
 		E2AF2D6821DEB1E90030498D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -952,7 +1027,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.macOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = macOS_Framework;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
@@ -962,6 +1037,7 @@
 		E2AF2D6921DEB1E90030498D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -977,7 +1053,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PLIST_FILE_OUTPUT_FORMAT = binary;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.perfecto-mobile.framework.macOS.PMPrometheusClientSDK";
-				PRODUCT_NAME = PMPrometheusClientSDK;
+				PRODUCT_NAME = macOS_Framework;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
@@ -1014,7 +1090,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2AF2CEC21DEB14C0030498D /* Build configuration list for PBXProject "PMPrometheosClientSDK" */ = {
+		E2AF2CEC21DEB14C0030498D /* Build configuration list for PBXProject "PMPrometheusClientSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2AF2D0421DEB14C0030498D /* Debug */,
